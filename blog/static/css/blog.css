@@ -1,19 +1,26 @@
+body{
 
-body {
-    padding-left: 15px;
+    background: #f0f0f0;
+
 }
 
-
 .page-header {
-    background-color: #C25100;
+    border-bottom-color: #df0e0e;
+    background: #ffffff;
+    border-bottom-width: 2px;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    margin-bottom: 3pc;
+    padding: 5px 20px 15px 50px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: black;
     font-size: 36pt;
     text-decoration: none;
+}
+
+.page-header p {
+    color: black;
 }
 
 .content {
@@ -21,7 +28,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lato';
+    font-family: 'Source Code Pro', monospace;
 }
 
 .date {
@@ -37,14 +44,31 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
-    float: right;
-    font-size: 26pt;
+    float:right;
+    font-size: 16pt;
     margin-right: 20px;
+    padding-top: 30px;
 }
 
 .post {
-    margin-bottom: 70px;
+    background: #ffffff;
+    padding: 0.8pc 2pc 2pc 2pc;
+    margin-bottom: 30px;
+    border-bottom: solid;
+    border-bottom-color: #df0e0e;
+    border-bottom-width: 2px;
+}
+
+.detail-post {
+    
+    padding: 2pc;
+    
+}
+
+
+
+.post-link, .post-link:hover{
+    color: #df0e0e;
 }
 
 .post h2 a, .post h2 a:visited {
@@ -54,3 +78,4 @@ h1, h2, h3, h4 {
 .comment {
     margin: 20px 0px 20px 20px;
 }
+
